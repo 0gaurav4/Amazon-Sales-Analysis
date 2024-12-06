@@ -35,7 +35,7 @@ except:
 
 # Dataset Summary
 st.header("Dataset Summary")
-st.write("Total Sales: $", filtered_data['Amount'].sum())
+st.write("Total Sales: ", filtered_data['Amount'].sum())
 st.write("Total Products: ", filtered_data['Product_ID'].nunique())
 
 
