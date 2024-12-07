@@ -12,9 +12,6 @@ st.write("Go to Dashboard page from the sidebar to get started.")
 st.image("https://www.neoadviser.com/wp-content/uploads/2021/01/am.png")
 
 
-
-
-
 df = pd.read_csv("cleaned_data.csv")
 
 # Sidebar Filters
